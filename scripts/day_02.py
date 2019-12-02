@@ -7,10 +7,6 @@ def main():
         line = infile.readline().strip()
         initial_state = to_array(line)
         intcode_array = list(initial_state)
-        # intcode_array[1] = 12
-        # intcode_array[2] = 2
-        # output = run(to_string(intcode_array))
-        # intcode_array = to_array(output)
 
         output = run_noun_verb(12, 2, intcode_array)
 
