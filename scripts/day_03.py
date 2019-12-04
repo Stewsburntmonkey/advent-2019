@@ -1,4 +1,4 @@
-""" Day 2 """
+""" Day 3 """
 from advent.wire import earliest_intersection, nearest_intersection
 
 def main():
